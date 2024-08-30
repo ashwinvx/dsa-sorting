@@ -5,12 +5,12 @@ function selectionSort(arr) {
             if(arr[j] < arr[min]){
                 min = j;
             }
-            console.log(arr);
         }
         if(min !== i){
             [arr[i], arr[min]] = [arr[min], arr[i]];
         }
     }
+    return arr;
 }
 
 module.exports = selectionSort;
