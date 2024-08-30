@@ -10,11 +10,11 @@ function bubbleSort(arr){
                 arr[j+1] = temp;   
                 swapped = true;
             }
-            console.log(arr);
+            //console.log(arr);
         }
         if(!swapped) break;
     }
-    console.log("Total Count:", count);
+    //console.log("Total Count:", count);
     return arr;
 }
 
