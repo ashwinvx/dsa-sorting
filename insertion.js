@@ -6,6 +6,7 @@ function insertionSort(arr) {
             j--;
         }   
     }
+    return arr;
 }
 
 module.exports = insertionSort;
